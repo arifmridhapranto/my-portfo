@@ -64,3 +64,53 @@ img {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+.container3 {
+  display: flex;
+  padding-top: 50px;
+}
+.blog {
+  height: 80vh;
+  margin: 50px;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.blog h1 {
+  text-align: center;
+}
+.container3 h1 {
+  text-align: left;
+}
+.container3 h3 {
+  text-align: left;
+  color: rgb(243, 243, 11);
+}
+.container3 .left-side,
+.right-side {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.blog .shadow-effect {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+}
+.shadow-effect {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, black);
+  border-image-slice: 1;
+}
+.border-left-gradiant1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(95, 4, 4), rgb(181, 211, 10));
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: red;
+}
