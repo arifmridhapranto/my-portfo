@@ -57,3 +57,10 @@ img {
   padding-left: 25px;
   align-items: right;
 }
+.container2 {
+  display: flex;
+  padding-top: 35px;
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
