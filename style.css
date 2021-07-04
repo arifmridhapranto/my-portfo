@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+/* .main {
+  text-align: center;
+} */
+h1 {
+  font-size: 42px;
+  line-height: 60px;
+  margin: 20px auto;
+}
+h3 {
+  font-size: 28px;
+  line-height: 50px;
+  margin: 20px auto;
+}
+p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 20px auto;
+}
+.my-name {
+  color: navy;
+}
+.container {
+  display: flex;
+  padding-top: 35px;
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
+.left-side {
+  width: 50%;
+  padding-left: 15px;
+  margin-right: 25px;
+}
+.right-side {
+  width: 50%;
+  padding-right: 20px;
+}
+.hire-me {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(11, 151, 69, 0.733),
+    rgba(96, 195, 187, 0.6)
+  );
+  color: red;
+  margin: 30px auto;
+}
+img {
+  height: 70%;
+  width: 100%;
+  padding-left: 25px;
+  align-items: right;
+}
